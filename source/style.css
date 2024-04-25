@@ -39,6 +39,13 @@ h2 {
   letter-spacing: 0.8px;
 }
 
+@media (max-width: 900px) {
+  .contact-me,
+  .about-me {
+    padding: 20px 20px;
+  }
+}
+
 .contact-me {
   background: var(--main-color);
   color: var(--secondary-color);
@@ -95,7 +102,7 @@ h3 {
   justify-content: center;
   color: var(--main-color);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
 }
 
